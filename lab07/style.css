@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav {
+    background-color: #e62429;
+    padding: 0.5rem;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem 1.5rem;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: #a81c1f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table caption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    vertical-align: top;
+}
+thead th {
+    background-color: #333;
+    color: white;
+}
+tbody th {
+    background-color: #f9f9f9;
+    width: 10%;
+    text-align: center;
+}
+
+td img {
+    width: 80px;
+    height: auto; 
+    display: block;
+    margin-bottom: 5px;
+}
+.reflection {
+    margin-top: 30px;
+}
+
+form {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+legend {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #e62429;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+label[for="nowayhome"],
+label[for="shangchi"],
+label[for="wakanda"] {
+    display: inline; 
+    font-weight: normal;
+}
+
+button[type="submit"] {
+    background-color: #e62429;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+button[type="submit"]:hover {
+    background-color: #a81c1f;
+}
