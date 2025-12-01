@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 10: Standard Presentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Web Standard: Portable Network Graphics (PNG)</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="what.html">What is PNG?</a></li>
+            <li><a href="why.html">Why is it Important?</a></li>
+            <li><a href="how.html">How is it Used?</a></li>
+            <li><a href="sources.html">Sources</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h2>What is the PNG Standard?</h2>
+
+        <p>
+            Portable Network Graphics (PNG) is a web standard for a raster graphics file format. It was first made in the 1990s as a replacement for the GIF format. The standard defines a way to store images by compressing them without losing any data. Lossless compression means the quality of the image remains exactly the same every time it is saved or viewed unlike lossy formats like JPEG which discard data.
+        </p>
+
+        <p>
+            The standard describes the technical details of the file format like its chunk based structure. A PNG file is made of a signature followed by a series of chunks which store different information. For example the IHDR chunk holds basic information like the image's width, height, and color type. The IDAT chunks store the actual image pixels and other chunks can store metadata like gamma correction (gAMA) or text (tEXt). This structure is important because it makes the format extensible which allows new features to be added later.
+        </p>
+
+        <p>
+            One of the most well known features defined by the PNG standard is its support for an alpha channel. The alpha channel allows each pixel to have a level of transparency from completely opaque to completely transparent. This is a massive advantage for web design since it allows images to blend smoothly over different website backgrounds. The new Third Edition of the standard also introduces formal support for high-dynamic-range (HDR) images and suggests ways to handle simple animations which keeps the format modern.
+        </p>
+
+    </main>
+
+    <footer>
+        Idrissa Danquah, <a href="da1149497@email.ccbcmd.edu" >da1149497@gmail.ccbcmd.edu.</a>
+    </footer>
+
+</body>
+</html>
